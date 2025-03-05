@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <hr>
+    <p>Este vídeo está hospedado em meu próprio servidor, de forma local.</p>
+
+    <video width="560" poster="imagem/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade para reprodução desse vídeo.</p> <!-- Essa mensagem só será exibida caso o navegador não consiga rodar nenhuma opção de formato -->
+    </video>
+
+    <h1>Inserindo Vídeos Hospedados Em Servidores Remotos (YouTube e Vimeo)</h1>
+    <hr>
+    <p>Este é o método ideal para adicionar vídeos em seu site sem ter um custo elevado de banda, elevando o custo do cliente, coisa que pode acontecer caso você hospede os vídeos em servidor local, ou seja, no seu prórpio servidor.</p>
+
+    <h2>YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ijqjqwiNdV4?si=Zsl1UABdHfyuJk3T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/257973357?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Animation Reel"></iframe>
+</body>
+</html>
