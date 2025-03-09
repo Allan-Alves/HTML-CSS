@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Propriedade Position</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #container-pai {
+            height: 50vh;
+            border: 3px solid black;
+            border-radius: 10px;
+            background: linear-gradient(-45deg, slateblue, violet);
+
+            position: relative;
+        }
+
+        #container-filho {
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background: linear-gradient(45deg, lightseagreen, lightskyblue);
+
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="container-pai">
+        <div id="container-filho">
+            <h1>Propriedade Position</h1>
+        </div>
+    </div>
+</body>
+</html>
