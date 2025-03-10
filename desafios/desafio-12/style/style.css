@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+@font-face {
+    font-family: 'Jokerman', 'Times New Roman', Times, serif;
+    src: url(../fonts/Jokerman.otf);
+}
+
+:root {
+    --fonte-titulo: 'Jokerman', Verdana, Geneva, Tagoma, sans-serif;
+    --fonte-header:  Arial, Helvetica, sans-serif;
+    --font-texto: "Playwrite IT Moderna", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10vh;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
