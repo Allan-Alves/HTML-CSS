@@ -44,7 +44,7 @@ section.box h2 {
 .container {
     width: 100%;
     max-width: 760px;
-    padding: 0, 20px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ section.box.parallax {
     background-size: cover;
 }
 
-section.box.parallax:after {
+section.box.parallax::after {
     content: "";
     height: 100%;
     width: 100%;
