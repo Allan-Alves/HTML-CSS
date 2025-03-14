@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Estudo de Agrupamento de Colunas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 500px;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2rem;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        thead {
+            color: white;
+            background-color: grey;
+        }
+
+        col.c-nome, col.c-idade {
+            background-color: rgb(200, 168, 230);
+        }
+
+        col.c-sexo, col.c-profissao {
+            background-color: rgb(160, 235, 197);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+
+        <colgroup>
+            <col class="c-nome">
+            <col class="c-sexo">
+            <col class="c-idade">
+            <col class="c-profissao">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25 anos</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>Masculino</td>
+                <td>30 anos</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>Masculino</td>
+                <td>42 anos</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>Masculino</td>
+                <td>20 anos</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>40 anos</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>Masculino</td>
+                <td>32 anos</td>
+                <td>Nutricionista</td>
+            </tr>
+        </tbody>  
+    </table>
+</body>
+</html>
