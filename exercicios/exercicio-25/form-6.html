@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Formulário</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ficha de Cadastramento</h1>
+    <form action="php/cadastro.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Ficha</legend>
+
+            <div>
+                <label for="i-cor">Cor:</label>
+                <input type="color" name="cor" id="i-cor" value="#00ff00">
+            </div>
+
+            <div>
+                <label for="i-nivel">Nível de Satisfação:</label>
+                <input type="range" name="nivel" id="i-nivel" min="1" max="10">
+            </div>
+
+            <div>
+                <label for="i-file">Arquivo:</label>
+                <input type="file" name="file" id="i-file">
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Editar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
