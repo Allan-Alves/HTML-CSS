@@ -25,6 +25,7 @@ header > h1 {
 }
 
 nav ul {
+    text-align: center;
     list-style-type: none;
     padding-bottom: 5px;
 }
