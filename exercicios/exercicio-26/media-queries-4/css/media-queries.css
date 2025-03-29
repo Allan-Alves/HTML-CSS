@@ -22,7 +22,7 @@
     }
 
     h2::before {
-        content: 'Versão Impressa';
+        content: 'Versão Para Impressão';
     }
     
     main::after {
