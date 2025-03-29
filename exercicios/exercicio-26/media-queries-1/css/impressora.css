@@ -22,7 +22,11 @@ h1, h2 {
     text-align: center;
 }
 
-p {
+article > h2 {
+    border: 1px solid black;
+}
+
+article > p {
     text-align: justify;
     text-indent: 30px;
 }
