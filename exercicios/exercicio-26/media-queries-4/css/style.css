@@ -30,9 +30,11 @@ main {
     padding: 10px;
 }
 
-main > h1 {
-    text-align: center;
-}
+main > h1, h2 { text-align: center; }
+
+h2 { margin-top: 5px;}
+
+h2::before { content: "Versão Mobile"; }
 
 main img {
     display: block;
