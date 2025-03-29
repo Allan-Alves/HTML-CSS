@@ -10,16 +10,21 @@
    Tvs:                min: 1200px */
 
 @media print { /* Impressora */
+    * { font-family: 'Courier New', Courier, monospace; }
+
     main {
         text-align: center;
         border: 1px solid black;
     }
 
     main > h1 {
-        text-shadow: none;
-        font-family: 'Courier New', Courier, monospace; 
+        text-shadow: none; 
     }
 
+    h2::before {
+        content: 'Versão Impressa';
+    }
+    
     main::after {
         content: 'Impressão feita através do site: www.cursoemvideo.com';
         text-decoration: overline;
@@ -35,6 +40,10 @@
         background-image: url(../images/back-tablet.jpg);
     }
 
+    h2::before {
+        content: 'Versão Tablet';
+    }
+
     #tablet { display: block; }
 
     #phone, #pc, #tv, #print { display: none; }
@@ -45,6 +54,10 @@
         background-image: url(../images/back-pc.jpg);
     }
 
+    h2::before {
+        content: 'Versão Desktop';
+    }
+
     #pc { display: block; }
 
     #phone, #tablet, #tv, #print { display: none; }
@@ -53,6 +66,10 @@
 @media (min-width: 1200px) { /* TVs */
     body {
         background-image: url(../images/back-tv.jpg);
+    }
+
+    h2::before {
+        content: 'Versão TV';
     }
 
     #tv { display: block; }
