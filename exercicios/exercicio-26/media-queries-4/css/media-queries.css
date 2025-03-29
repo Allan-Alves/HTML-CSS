@@ -2,3 +2,60 @@
 
 /* Declaração Demais Mídias */
 
+/* Typical Devices Breakpoints */
+
+/* Mobile Devices:     min: 320px  max: 600px
+   iPads, Tablets:     min: 768px  max: 1024px
+   Desktops, Laptops:  min: 1024px max: 1200px
+   Tvs:                min: 1200px */
+
+@media print { /* Impressora */
+    main {
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    main > h1 {
+        text-shadow: none;
+        font-family: 'Courier New', Courier, monospace; 
+    }
+
+    main::after {
+        content: 'Impressão feita através do site: www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    #print { display: block; }
+
+    #phone, #tablet, #pc, #tv { display: none; }
+}
+
+@media (min-width: 768px) { /* Tablets */
+    body {
+        background-image: url(../images/back-tablet.jpg);
+    }
+
+    #tablet { display: block; }
+
+    #phone, #pc, #tv, #print { display: none; }
+}
+
+@media (min-width: 1024px) { /* Desktop/Laptop */
+    body {
+        background-image: url(../images/back-pc.jpg);
+    }
+
+    #pc { display: block; }
+
+    #phone, #tablet, #tv, #print { display: none; }
+}
+
+@media (min-width: 1200px) { /* TVs */
+    body {
+        background-image: url(../images/back-tv.jpg);
+    }
+
+    #tv { display: block; }
+
+    #phone, #tablet, #pc, #print { display: none; }
+}
