@@ -26,8 +26,8 @@ header > h1 {
     color: white;
     background-color: rgb(20, 20, 126);
     text-align: center;
-    transition: 0.5s;
     padding: 10px;
+    transition: 0.5s;
 }
 
 #burguer:hover {
@@ -51,8 +51,8 @@ nav a {
     border-top: 2px solid rgba(255, 253, 253, 0.836);
     text-align: center;
     text-decoration: none;
-    transition: all 0.5s;
     padding: 10px;
+    transition: all 0.5s;
 }
 
 nav a:hover {
