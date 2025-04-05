@@ -40,12 +40,12 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
+    transition-duration: 0.5s;
 }
 
 nav a:hover {
     border-radius: 5px;
     background-color: rgb(70, 70, 194);
-    transition-duration: 0.5s;
 }
 
 article {
