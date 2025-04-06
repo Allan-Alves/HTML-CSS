@@ -40,9 +40,7 @@
         background-image: url(../images/back-tablet.jpg);
     }
 
-    h2::before {
-        content: 'Versão Tablet';
-    }
+    h2::before { content: 'Versão Tablet'; }
 
     #tablet { display: block; }
 
@@ -54,9 +52,7 @@
         background-image: url(../images/back-pc.jpg);
     }
 
-    h2::before {
-        content: 'Versão Desktop';
-    }
+    h2::before { content: 'Versão Desktop'; }
 
     #pc { display: block; }
 
@@ -68,9 +64,7 @@
         background-image: url(../images/back-tv.jpg);
     }
 
-    h2::before {
-        content: 'Versão TV';
-    }
+    h2::before { content: 'Versão TV'; }
 
     #tv { display: block; }
 
