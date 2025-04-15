@@ -1,5 +1,5 @@
 # Curso de HTML5-CSS3 do Curso em Vídeo
-Curso ministrado pelo professor [Gustavo Guanabara](https://github.com/gustavoguanabara), do Curso em Vídeo.
+Curso ministrado pelo professor [Gustavo Guanabara](https://github.com/gustavoguanabara), do [Curso em Vídeo](https://www.cursoemvideo.com).
 
 O curso abrange 5 módulos, com uma média de 40 aulas por módulo, aonde ao longo dos módulos são realizados exercícios e desafios (sem acesso aos códigos fonte) envolvendo os conhecimentos estudados e praticados de forma aprofundada.
 
