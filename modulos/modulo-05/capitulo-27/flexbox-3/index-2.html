@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        /* Flex-Flow: Column Wrap */
+        .container-1 {
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items-1 {
+            flex: auto;
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+        }
+
+        /* Flex-Flow: Column Wrap-Reverse */
+        .container-2 {
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items-2 {
+            flex: auto;
+            text-align: center;
+            background-color: rgb(192, 129, 230);
+            border: 1px solid black;
+        }
+        
+        /* Flex-Flow: Column-Reverse Wrap */
+        .container-3 {
+            height: 100px;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items-3 {
+            flex: auto;
+            text-align: center;
+            background-color: rgb(129, 230, 163);
+            border: 1px solid black;
+        }
+
+        /* Flex-Flow: Column-Reverse Wrap-Reverse */
+        .container-4 {
+            height: 100px;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap-reverse;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items-4 {
+            flex: auto;
+            text-align: center;
+            background-color: rgb(220, 230, 110);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Para trabalharmos com o valor 'column' quebrando em linhas, precisamos obrigatoriamente definir uma altura para o container pai. -->
+
+    <!-- Flex-Flow: Column Wrap -->
+    <div class="container-1">
+        <div class="flex-items-1"> Exemplo de Bloco A</div>
+        <div class="flex-items-1"> Exemplo de Bloco B</div>
+        <div class="flex-items-1"> Exemplo de Bloco C</div>
+        <div class="flex-items-1"> Exemplo de Bloco D</div>
+        <div class="flex-items-1"> Exemplo de Bloco E</div>
+        <div class="flex-items-1"> Exemplo de Bloco F</div>
+        <div class="flex-items-1"> Exemplo de Bloco G</div>
+        <div class="flex-items-1"> Exemplo de Bloco H</div>
+    </div>
+    <!-- Flex-Flow: Column Wrap-Reverse -->
+    <div class="container-2">
+        <div class="flex-items-2"> Exemplo de Bloco A</div>
+        <div class="flex-items-2"> Exemplo de Bloco B</div>
+        <div class="flex-items-2"> Exemplo de Bloco C</div>
+        <div class="flex-items-2"> Exemplo de Bloco D</div>
+        <div class="flex-items-2"> Exemplo de Bloco E</div>
+        <div class="flex-items-2"> Exemplo de Bloco F</div>
+        <div class="flex-items-2"> Exemplo de Bloco G</div>
+        <div class="flex-items-2"> Exemplo de Bloco H</div>
+    </div>
+    <!-- Flex-Flow: Column-reverse Wrap -->
+    <div class="container-3">
+        <div class="flex-items-3"> Exemplo de Bloco A</div>
+        <div class="flex-items-3"> Exemplo de Bloco B</div>
+        <div class="flex-items-3"> Exemplo de Bloco C</div>
+        <div class="flex-items-3"> Exemplo de Bloco D</div>
+        <div class="flex-items-3"> Exemplo de Bloco E</div>
+        <div class="flex-items-3"> Exemplo de Bloco F</div>
+        <div class="flex-items-3"> Exemplo de Bloco G</div>
+        <div class="flex-items-3"> Exemplo de Bloco H</div>
+    </div>
+    <!-- Flex-Flow: Column-reverse Wrap-Reverse -->
+    <div class="container-4">
+        <div class="flex-items-4"> Exemplo de Bloco A</div>
+        <div class="flex-items-4"> Exemplo de Bloco B</div>
+        <div class="flex-items-4"> Exemplo de Bloco C</div>
+        <div class="flex-items-4"> Exemplo de Bloco D</div>
+        <div class="flex-items-4"> Exemplo de Bloco E</div>
+        <div class="flex-items-4"> Exemplo de Bloco F</div>
+        <div class="flex-items-4"> Exemplo de Bloco G</div>
+        <div class="flex-items-4"> Exemplo de Bloco H</div>
+    </div>
+</body>
+</html

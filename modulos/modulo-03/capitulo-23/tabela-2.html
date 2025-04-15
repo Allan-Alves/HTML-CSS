@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Estudo de Tabela</title>
+    <style>
+        table {
+            margin: 50px auto;
+            font-family: sans-serif;
+            border-collapse: collapse;
+            /* Torna a borda de tabelas colapsada, ou seja, vira uma borda normal, uma borda única */
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1"> <!-- Border - Inserido dentro da tag table, cria e especifica a espessura da borda ao redor da tabela. -->
+        <caption>Tabela de Pontuação</caption>
+        
+        <thead>
+            <tr>
+                <th>Pontuação</th>
+                <th>Avaliação</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>0-2</td>
+                <td>Não desista! Cada tentativa é uma oportunidade de aprender</td>
+            </tr>
+            <tr>
+                <td>3-4</td>
+                <td>Você ainda precisa melhorar, que tal estudar mais sobre programação?</td>
+            </tr>
+            <tr>
+                <td>5-7</td>
+                <td>Bom! Seu conhecimento em programação está satisfatório.</td>
+            </tr>
+            <tr>
+                <td>8-8</td>
+                <td>Perfeito! Você está muito bem informado sobre programação.</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Boa sorte na próxima! Estude mais para garantir resultados melhores.</td> 
+                <!-- Colspan - Possibilita com que a célula ocupe o espaço de todas as colunas de uma linha ou quantas você determinar. -->
+            </tr>
+        </tfoot>
+    </table> 
+</body>
+</html>

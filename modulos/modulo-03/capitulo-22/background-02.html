@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Propriedade Background Repeat</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+            background-size: 100px 100px;
+            background-repeat: no-repeat;
+        }
+
+        .box {
+            background-color: lightgrey;
+            height: 400px;
+            width: 90%;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        #box-01 {
+            background-image: url(images/pattern001.png);
+        }
+
+        #box-02 {
+            background-image: url(images/pattern002.png);
+            background-repeat: repeat-x;
+        }
+
+        #box-03 {
+            background-image: url(images/pattern003.png);
+            background-repeat: repeat-y;
+        }
+
+        #box-04 {
+            background-image: url(images/pattern004.png);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propiedade Background Repeat</h1>
+    <h2>background-repeat: repeat;</h2>
+    <p>Repete a imagem tanto no sentido vertical quanto no horizontal (padrão).</p>
+    <div class="box" id="box-01"></div>
+
+    <h2>background-repeat: repeat-x;</h2>
+    <p>Repete a imagem apenas no eixo horizontal (eixo x).</p>
+    <div class="box" id="box-02"></div>
+
+    <h2>background-repeat: repeat-y;</h2>
+    <p>Repete a imagem apenas no eixo vertical (eixo y).</p>
+    <div class="box" id="box-03"></div>
+
+    <h2>background-repeat: no-repeat;</h2>
+    <p>Não repete em nenhum eixo, a imagem só é carregada uma única vez.</p>
+    <div class="box" id="box-04"></div>
+</body>
+</html>
