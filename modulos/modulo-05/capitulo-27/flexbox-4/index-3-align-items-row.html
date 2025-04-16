@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        /* Align-Items: Stretch */
+        .container-1 {
+            height: 500px;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+        }
+        .flex-items-1 {
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Align-Items: Flex-Start */
+        .container-2 {
+            height: 500px;
+            background-color: rgb(228, 108, 124);
+            margin-bottom: 50px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            /* justify-content: flex-end; */
+            align-items: flex-start;
+        }
+        .flex-items-2 {
+            text-align: center;
+            background-color: rgb(192, 129, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Align-Items: Flex-End */
+        .container-3 {
+            height: 500px;
+            background-color: rgb(108, 116, 228);
+            margin-bottom: 50px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .flex-items-3 {
+            text-align: center;
+            background-color: rgb(129, 230, 163);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Align-Items: Center */
+        .container-4 {
+            height: 500px;
+            background-color: rgb(80, 83, 83);
+            margin-bottom: 50px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex-items-4 {
+            text-align: center;
+            background-color: rgb(220, 230, 110);
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Valor Padrão do Align-Items: Stretch -->
+    <!-- Para trabalharmos com Align-Items precisamos sempre definir uma altura para o elemento pai, ou seja, para o eixo transversal cross-axis. -->
+
+    <!-- Align-Items: Stretch -->
+    <div class="container-1">
+        <div class="flex-items-1">A</div>
+        <div class="flex-items-1">B</div>
+        <div class="flex-items-1">C</div>
+        <div class="flex-items-1">D</div>
+        <div class="flex-items-1">E</div>
+        <div class="flex-items-1">F</div>
+        <div class="flex-items-1">G</div>
+    </div>
+    <!-- Align-Items: Flex-Start -->
+    <div class="container-2">
+        <div class="flex-items-2">A</div>
+        <div class="flex-items-2">B</div>
+        <div class="flex-items-2">C</div>
+        <div class="flex-items-2">D</div>
+        <div class="flex-items-2">E</div>
+        <div class="flex-items-2">F</div>
+        <div class="flex-items-2">G</div>
+    </div>
+    <!-- Align-Items: Flex-End -->
+    <div class="container-3">
+        <div class="flex-items-3">A</div>
+        <div class="flex-items-3">B</div>
+        <div class="flex-items-3">C</div>
+        <div class="flex-items-3">D</div>
+        <div class="flex-items-3">E</div>
+        <div class="flex-items-3">F</div>
+        <div class="flex-items-3">G</div>
+    </div>
+    <!-- Align-Items: Center -->
+    <div class="container-4">
+        <div class="flex-items-4">A</div>
+        <div class="flex-items-4">B</div>
+        <div class="flex-items-4">C</div>
+        <div class="flex-items-4">D</div>
+        <div class="flex-items-4">E</div>
+        <div class="flex-items-4">F</div>
+        <div class="flex-items-4">G</div>
+    </div>
+</body>
+</html>
