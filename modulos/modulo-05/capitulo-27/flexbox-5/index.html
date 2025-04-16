@@ -13,7 +13,7 @@
         }
 
         body {
-            font-family: sans-serif;    
+            font-family: sans-serif;
         }
 
         main.container {
@@ -23,8 +23,10 @@
             justify-content: center;
             align-items: center;
 
-            height: 100vh;
-            width: 100vw;
+            /* Para eliminar a margem abaixo do container em telas extra pequenas. */
+            min-height: 100vh;
+            /* Para eliminar a barra de rolagem criada horizontalmente em telas extra pequenas. */
+            width: 100%;
             background-image: linear-gradient(95deg, #8e2de2, #4a00e0); 
         }
 
