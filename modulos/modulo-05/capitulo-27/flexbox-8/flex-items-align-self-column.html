@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: column wrap;
+            /* Align-Items - Padrão - Stretch. */
+            align-items: flex-start;
+
+            width: 500px;
+            background-color: rgb(170, 108, 228);
+        }
+
+        .flex-items {
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .flex-items.item-1 {
+            align-self: center;
+        }
+        .flex-items.item-2 {
+            /* Auto - Valor herdado do elemento pai. */
+            /* Inherit - Valor herdado do elemento pai. */
+            align-self: auto;
+        }
+        .flex-items.item-3 {
+            align-self: flex-end;
+        }
+        .flex-items.item-4 {
+            align-self: stretch;    
+        }
+        .flex-items.item-5 {
+            align-self: center;    
+        }
+        .flex-items.item-6 {
+            align-self: flex-start; 
+        }
+        .flex-items.item-7 {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-items item-1">A</div>
+        <div class="flex-items item-2">B</div>
+        <div class="flex-items item-3">C</div>
+        <div class="flex-items item-4">D</div>
+        <div class="flex-items item-5">E</div>
+        <div class="flex-items item-6">F</div>
+        <div class="flex-items item-7">G</div>
+    </div>
+</body>
+</html>
