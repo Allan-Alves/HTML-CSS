@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items {
+            /* Flex-Basis - Auto - Valor padrão. */
+            /* Flex-Basis: Auto, os flex-items se adaptam ao tamanho do conteúdo. */
+            flex-basis: auto;
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-flow: row wrap;
+            background-color: rgb(170, 108, 228);
+        }
+        .flex-items-2 {
+            /* Flex-Basis - Auto - Valor padrão. */
+            /* Flex-Basis com tamanho (largura) personalizada. */
+            flex-basis: 200px;
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-items">A</div>
+        <div class="flex-items">Outro Conteúdo</div>
+        <div class="flex-items">C</div>
+        <div class="flex-items">Conteúdo um pouco maior</div>
+        <div class="flex-items">E</div>
+        <div class="flex-items">Conteúdo maior ainda, que ocupará mais espaço</div>
+        <div class="flex-items">G</div>
+    </div>
+    <div class="container-2">
+        <div class="flex-items-2">A</div>
+        <div class="flex-items-2">Outro Conteúdo</div>
+        <div class="flex-items-2">C</div>
+        <div class="flex-items-2">Conteúdo um pouco maior</div>
+        <div class="flex-items-2">E</div>
+        <div class="flex-items-2">Conteúdo maior ainda, que ocupará mais espaço</div>
+        <div class="flex-items-2">G</div>
+    </div>
+</body>
+</html>
