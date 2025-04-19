@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items {
+            /* Flex-Shrink - 1 - Valor padrão. */
+            flex-basis: 250px;
+            flex-shrink: 0;
+            flex-grow: 0;
+
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: rgb(170, 108, 228);
+        }
+        .flex-items-2 {
+            /* Flex-Grow - 0 - Valor padrão. */
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flex-Shrink. -->
+    <div class="container">
+        <div class="flex-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex ut quod minus vero reprehenderit cum ipsam tempore accusamus eaque porro laborum reiciendis dolorum repellat facilis repudiandae, iste nostrum nesciunt!
+        </div>
+        <div class="flex-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ducimus cumque laudantium velit sed ipsa ea accusamus ullam, excepturi atque expedita repellat quis minus, consequatur id similique. Commodi, fuga tempora!
+        </div>
+        <div class="flex-items">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore expedita quae quibusdam possimus recusandae quod temporibus commodi tenetur sunt aspernatur vitae quia aperiam, obcaecati eius odit vero minima pariatur.
+        </div>
+    </div>
+    <!-- Flex-Grow -->
+    <div class="container-2">
+        <div class="flex-items-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur quaerat quam doloribus voluptatum tempore excepturi, itaque dolor deleniti minus explicabo id aliquam soluta doloremque in. Eaque quibusdam minus enim!
+        </div>
+        <div class="flex-items-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ut autem fugit amet veniam dolor aut, ex obcaecati mollitia excepturi quas eum facilis praesentium pariatur reprehenderit. Id dolorem asperiores quidem.
+        </div>
+        <div class="flex-items-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vitae, recusandae impedit, odio delectus sunt numquam ut vel aspernatur, voluptatum alias ab sit nemo doloremque suscipit. Excepturi nostrum enim vero.
+        </div>
+    </div>
+</body>
+</html>
