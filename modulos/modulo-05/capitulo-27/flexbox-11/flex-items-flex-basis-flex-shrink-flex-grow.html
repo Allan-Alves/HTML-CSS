@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Flexbox</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items {
+            /* Flex-Shrink - 1 - Valor padrão. */
+            /* Flex-Grow - 0 - Valor Padrão. */
+            flex-basis: 200px;
+            
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .flex-items.box-A {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        .flex-items.box-B {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        .flex-items.box-C {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        .flex-items.box-D {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+/* ====================================================================== */
+
+        .container-2 {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: rgb(170, 108, 228);
+            margin-bottom: 50px;
+        }
+        .flex-items-2 {
+            /* Flex-Shrink - 1 - Valor padrão. */
+            /* Flex-Grow - 0 - Valor Padrão. */
+            flex-basis: 200px;
+            
+            text-align: center;
+            background-color: rgb(120, 186, 230);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .flex-items-2.caixa-A {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        .flex-items-2.caixa-B {
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+        .flex-item-2.caixa-C {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        .flex-items-2.caixa-D {
+            flex-shrink: 3;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-items box-A">A</div>
+        <div class="flex-items box-B">B</div>
+        <div class="flex-items box-C">C</div>
+        <div class="flex-items box-D">D</div>
+    </div>
+    <div class="container-2">
+        <div class="flex-items-2 caixa-A">A</div>
+        <div class="flex-items-2 caixa-B">B</div>
+        <div class="flex-items-2 caixa-C">C</div>
+        <div class="flex-items-2 caixa-D">D</div>
+    </div>
+</body>
+</html>
