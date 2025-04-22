@@ -14,13 +14,15 @@ body {
 }
 
 h1, h2 {
-    margin-bottom: 10px;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
     text-align: justify;
     text-indent: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 header.normal-content, section.normal-content {
