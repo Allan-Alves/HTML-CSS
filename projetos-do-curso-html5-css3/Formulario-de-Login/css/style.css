@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #8c4cc9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    height: 530px;
+    width: 250px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transform: translate(-50%, -50%);
+    transition: height 0.3s, width 0.3s;
+    transition-timing-function: ease;
+}
+
+section#login > div#image {
+    display: block;
+    height: 200px;
+    background-image: url(../images/metal.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+form > div.campo {
+    position: relative;
+
+    height: 40px;
+    background-color: #8c4cc9;
+    border-radius: 8px;
+    margin: 5px 0px; 
+}
+
+form > div > label {
+    display: none;
+}
+
+div.campo > span {
+    width: 40px;
+    color: white;
+    font-size: 2.0rem;
+    padding: 5px;
+}
+
+div.campo > input {
+    position: absolute;
+
+    height: 100%;
+    width: calc(100% - 40px);
+    background-color: #82d8d5;
+    border: 2px solid #8c4cc9;
+    border-radius: 0px 8px 8px 0px;
+    padding: 4px; 
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+button[type=submit] {
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 1.0rem;
+    color: white;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+button[type=submit]:hover {
+    background-color: #306b6a;
+}
+
+form a.botao {
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 1.0rem;
+    color: #306b6a;
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+form a.botao:hover {
+    background-color: #6cd3cf;
+}

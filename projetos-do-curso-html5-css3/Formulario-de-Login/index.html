@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <title>Formulário de Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="image">
+                <!-- Imagem adicionada no arquivo CSS principal -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações necessárias em seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input type="email" name="email" id="email" required autocomplete="email" placeholder="Insira seu e-mail">
+                        <label for="email">E-mail:</label>
+                    </div>
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined">lock</span>
+                        <input type="password" name="senha" id="senha" required autocomplete="current-password" placeholder="Insira sua senha" minlength="8" maxlength="20">
+                        <label for="senha">Senha:</label>
+                    </div>
+
+                    <div>
+                        <button type="submit" id="login-button">Entrar</button>
+                        <a href="#" target="_self" rel="next" class="botao">Esqueci a senha</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
