@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Estudo de Grid Layout</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+
+            height: 250px;
+            padding: 10px;
+            border: 3px dashed rgb(0, 0, 0);
+        }
+
+        .grid-item {
+            border: 2px solid rgb(216, 109, 9);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudo de Grid Layout</h1>
+    </header> 
+    <main class="grid-container">
+        <section class="grid-item">A</section>
+        <section class="grid-item">B</section>
+        <section class="grid-item">C</section>
+        <section class="grid-item">D</section>
+        <section class="grid-item">E</section>
+        <section class="grid-item">F</section>
+        <section class="grid-item">G</section>
+    </main>
+</body>
+</html>
