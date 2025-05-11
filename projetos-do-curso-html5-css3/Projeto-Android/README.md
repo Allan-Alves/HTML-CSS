@@ -1,4 +1,32 @@
 # Projeto Site de Notícias
-Projeto reproduzido no curso de HTML5 e CSS3 do Curso em Vídeo aplicando os conhecimentos estudados e praticados.
+O projeto consiste em um site responsivo de notícias, com apenas uma página de notícias sobre a origem e criação do mascote Bug-droid, do Android. Projeto desenvolvido no curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com), aplicando os conhecimentos estudados e praticados ao longo do curso.     
 
-[Projeto Concluído](https://allan-alves.github.io/Projeto-Android/)
+## Funcionalidades:
+
+* Responsividade do conteúdo
+* Uso e aplicação dos conceitos de box model
+* Estrutura semântica em HTML5
+* Variáveis em CSS3
+* Trabalho com técnica de degradê
+* Inserção de fontes externas
+* Inserção e responsividade de imagens e vídeo em diferentes tamanhos de tela
+* Navegação externa entre hyperlinks
+* Sombreamento de caixas
+* Sombreamento de fontes
+* Listas ordenadas e não ordenadas
+* Inserção de símbolos em listas
+  
+## Tecnologias utilizadas:
+
+* HTML5
+* CSS3
+
+## Acesso ao Projeto
+
+[Acesse o site](https://allan-alves.github.io/Projeto-Android/)
+
+## Demonstração em diferentes tamanhos de tela
+
+__Mobile - iPhone 14 Pro Max - 430 x 932__
+
+<!-- ![Mobile](images/1%20-%20iPhone%2014%20Pro%20Max%20-%20430%20x%20932.png) -->
