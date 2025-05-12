@@ -1,7 +1,7 @@
 # Projeto Cordel Moderno
 O projeto consiste em um site que apresenta de forma ilustrativa, com imagens que capturam a essência dos versos, um cordel do poeta brasileiro Milton Duarte. Projeto desenvolvido no curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com), com modificações realizadas por mim, aplicando os conhecimentos estudados e praticados ao longo do curso.
 
-## Funcionalidades:
+## Funcionalidades
 
 * Responsividade do conteúdo
 * Uso e aplicação da técnica parallax em imagens
@@ -11,7 +11,7 @@ O projeto consiste em um site que apresenta de forma ilustrativa, com imagens qu
 * Trabalho com técnica de degradê
 * Aplicação e manipulação de imagens de fundo, utilizando os conceitos estudados e praticados referente á esse tópico
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
 
 * HTML5
 * CSS3
