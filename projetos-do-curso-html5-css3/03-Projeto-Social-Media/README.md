@@ -1,5 +1,5 @@
 # Projeto Social Media
-Projeto que consiste na navegação entre páginas através de iframes, que é um recurso utilizado para acessar páginas externas da web sem necessariamente precisar abri-las em outra guia. O projeto simula a navegação entre redes sociais em um aparelho celular. Projeto desenvolvido no curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com), aplicando os conhecimentos estudados e praticados ao longo do curso.     
+Projeto que consiste na navegação entre páginas através de iframes, iframes é um recurso utilizado para acessar páginas externas da web sem necessariamente precisar abri-las em outra guia. O projeto simula a navegação entre redes sociais em um aparelho celular. Projeto desenvolvido no curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com), aplicando os conhecimentos estudados e praticados ao longo do curso.     
 
 ## Funcionalidades
 
