@@ -6,7 +6,7 @@ Projeto que consiste na navegação entre páginas através de iframes, iframes 
 * Uso de iframes
 * Responsividade do conteúdo
 * Aplicação de posicionamento de elementos
-* Aplicação e Manipulação de imagens de fundo
+* Aplicação e manipulação de imagens de fundo
 
 ## Tecnologias utilizadas
 
