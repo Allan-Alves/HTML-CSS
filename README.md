@@ -44,8 +44,8 @@ __Módulo 03:__
 
  __Módulo 04:__
  * iframes
- * Formulários  (tags e parâmetros, métodos de envios de dados "GET" e "POST", tipos de inputs para formulários (text, number, radio, checkbox, email, password, file,
-month, date, time, datetime-local, range, color, url, search) e seus parâmetros 
+ * Formulários (tags e parâmetros, métodos de envios de dados "GET" e "POST", tipos de inputs para formulários (text, number, radio, checkbox, email, password, file,
+month, date, time, datetime-local, range, color, url, search) e seus parâmetros) 
 * Elementos textarea, select, datalist e output
 * Media Queries (media types, media features e media queries) 
 * Mobile first
